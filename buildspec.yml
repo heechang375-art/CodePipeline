@@ -9,7 +9,7 @@ phases:
     commands:
       - echo "Build phase - copying file"
       - mkdir output
-      - cp Portal.html output/
+      - cp portal.html output/
 
 artifacts:
   files:
