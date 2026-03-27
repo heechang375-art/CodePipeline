@@ -9,7 +9,7 @@ phases:
     commands:
       - echo "Build phase"
       - mkdir -p output
-      - cp portal.html output/
+      - cp portal.html output/index.html
 
       # # CodeDeploy 파일 포함
       - mkdir -p scripts
