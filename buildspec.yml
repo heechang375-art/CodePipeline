@@ -11,9 +11,9 @@ phases:
       - mkdir -p output
       - cp portal.html output/
 
-      # CodeDeploy 파일 포함
-      - mkdir -p scripts
-      - cp scripts/restart.sh scripts/
+      # # CodeDeploy 파일 포함
+      # - mkdir -p scripts
+      # - cp scripts/restart.sh scripts/
 
   post_build:
     commands:
